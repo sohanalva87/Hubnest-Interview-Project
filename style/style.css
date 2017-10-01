@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LANDING PAGE ******/
+html, body{
+background-color: black;
+height:100%;
+}
+.header{
+    height:40px;
+}
+.form{
+    overflow: auto;
+    background-color: white;
+}
+#add-name{
+}
+.add-btn{
+    border:1px solid black;
+    border-radius: 0px;
+}
+.add-btn-2 button{
+    border:1px solid black;
+    border-radius: 0px;
+}
+.del-btn{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border:1px solid black;
+    border-radius:0px;
+}
+
+.del-btn-2 button{
+    border-radius:0px;
+    border:1px solid black;
+}
+.input-field{
+    border-radius: 0px;
+}
+.name-header{
+    border-bottom: 2px solid black;
+}
+
+#logout{
+        background: red;
+        margin-top:25px;
+        color: white;
+        margin:0 auto;
+
+    }
+
