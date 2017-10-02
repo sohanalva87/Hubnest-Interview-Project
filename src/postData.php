@@ -1,5 +1,6 @@
 <?php
     include_once 'psl-config.php';
+    error_reporting(0);
 
     $action=$_POST["action"];
     if($action=="showdata")
