@@ -74,7 +74,7 @@ FROM basicInfo a LEFT JOIN contactInfo b ON a.ID = b.ID ORDER BY fname");
                                             echo "</div>";
                                         echo "</div>";
                                 }
-                                if($count_flag<$row_cnt){
+                                if($count_flag<=$row_cnt){
                                     if($rows[$count_flag]['ID']!=$row['ID'])
                                     {
                                             echo "<div class='row'>";
